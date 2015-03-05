@@ -1,0 +1,39 @@
+<?php
+
+/**
+ * Implements hook_block_info
+ */
+function cavp_admin_buttons_block_info() {
+  $blocks = array();
+  $blocks['cavp_admin_buttons_block'] = array(
+    'info' => t('CAVP Admin Buttons'), 
+    'cache' => DRUPAL_NO_CACHE,
+  );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view
+ */
+function cavp_admin_buttons_block_view($delta = 0) {
+  $blocks = array();
+  if ($delta == 'cavp_admin_buttons_block') {
+    $node = menu_get_object();
+	if (isset($node->type) && isset($node->field_show_site_section_buttons) && $node->field_show_site_section_buttons['und'][0]['value'] == 'Show Buttons') {
+	  $blocks['content'] = theme('cavp_admin_buttons');
+	}
+  }
+  return $blocks;
+}
+
+/**
+ * Implements hook_theme
+ */
+function cavp_admin_buttons_theme($existing, $type, $theme, $path) {
+  return array(
+    'cavp_admin_buttons' => array(
+      'template' => 'cavp_admin_buttons',
+      'path' => $path . '/theme'
+    )
+  );
+}

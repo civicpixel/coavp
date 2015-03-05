@@ -1,0 +1,85 @@
+/**
+ * @file
+ * Views Styling
+ */
+
+
+/*
+ * Views' admin tabs
+ *
+ * The views admin tabs use the same classes as the secondary tabs. We prevent
+ * some of our tab styling from bleeding into (and breaking) the Views admin
+ * pages. If your sub-theme isn't used for admin pages, you can remove this
+ * entire section.
+ */
+
+.views-displays .secondary li {
+  float: none;
+  margin: 0 6px 0;
+}
+
+.views-displays .secondary a:link,
+.views-displays .secondary a:visited {
+  text-shadow: none;
+  padding: 2px 7px 3px;
+}
+
+.views-displays .secondary .open > a {
+  -webkit-border-radius: 7px 7px 0 0;
+  -moz-border-radius: 7px 7px 0 0;
+  -ms-border-radius: 7px 7px 0 0;
+  -o-border-radius: 7px 7px 0 0;
+  border-radius: 7px 7px 0 0;
+}
+
+.views-displays .secondary .open > a:hover {
+  color: #333;
+}
+
+.views-displays .secondary .action-list li {
+  margin: 0;
+}
+
+.views-displays .secondary .action-list li:first-child {
+  -webkit-border-radius: 0 7px 0 0;
+  -moz-border-radius: 0 7px 0 0;
+  -ms-border-radius: 0 7px 0 0;
+  -o-border-radius: 0 7px 0 0;
+  border-radius: 0 7px 0 0;
+}
+
+.views-displays .secondary .action-list li:last-child {
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  -ms-border-radius: 0 0 7px 7px;
+  -o-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+}
+
+.view-staff .view-content {
+  background: #F7F7ED;
+  padding: 15px 0;
+}
+
+.view-staff .views-row {
+  background: #E6E3BB url(../images/row-bg-treeleaf.png) scroll no-repeat left top;
+  margin: 15px 30px;
+  padding: 20px;
+}
+.view-staff .views-field-title {
+  color: #320000;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.view-staff .views-field-field-image img {
+  -moz-box-shadow:    4px 4px 9px 0px #666;
+  -webkit-box-shadow: 4px 4px 9px 0px #666;
+  box-shadow:         4px 4px 9px 0px #666;
+  float: left;
+  margin-right: 21px;
+  margin-bottom: 5px;
+}
+.view-staff .views-field-body {
+  margin-top: -20px;
+}

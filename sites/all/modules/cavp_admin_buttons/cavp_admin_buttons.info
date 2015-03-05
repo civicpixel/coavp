@@ -1,0 +1,4 @@
+name = CAVP Admin Buttons
+description = Admin button block for CAVP.
+core = 7.x
+package = "CAVP"

@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/profiles/openatrium/themes/ginkgo/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/profiles/openatrium/modules/contrib/codefilter/codefilter.css?g" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/openatrium/modules/contrib/itweak_upload/itweak_upload.css?g" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/openatrium/modules/contrib/cck/theme/content-module.css?g" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/openatrium/modules/contrib/ctools/css/ctools.css?g" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/openatrium/modules/contrib/date/date.css?g" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/openatrium/modules/contrib/date/date_popup/themes/datepicker.css?g" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/openatrium/modules/contrib/date/date_popup/themes/jquery.timeentry.css?g" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/openatrium/modules/contrib/og/theme/og.css?g" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/atrium_time_tracker/css/atrium_time_tracker.css?g" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/casetracker_duedate/casetracker_duedate.css?g" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/time_tracker/time_sheet/css/time_sheet.css?g" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/time_tracker/css/time_tracker_timer.css?g" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/openatrium/modules/contrib/views/css/views.css?g" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/openatrium/modules/contrib/boxes/boxes.css?g" />
+<link type="text/css" rel="stylesheet" media="screen" href="/profiles/openatrium/themes/tao/reset.css?g" />
+<link type="text/css" rel="stylesheet" media="screen" href="/profiles/openatrium/themes/tao/drupal.css?g" />
+<link type="text/css" rel="stylesheet" media="screen" href="/profiles/openatrium/themes/tao/base.css?g" />
+<link type="text/css" rel="stylesheet" media="screen" href="/profiles/openatrium/themes/rubik/core.css?g" />
+<link type="text/css" rel="stylesheet" media="screen" href="/profiles/openatrium/themes/rubik/icons.css?g" />
+<link type="text/css" rel="stylesheet" media="screen" href="/profiles/openatrium/themes/ginkgo/style.css?g" />
+<link type="text/css" rel="stylesheet" media="screen" href="/profiles/openatrium/themes/ginkgo/ginkgo.css?g" />
+<link type="text/css" rel="stylesheet" media="screen" href="/profiles/openatrium/themes/ginkgo/layout.css?g" />
+<link type="text/css" rel="stylesheet" media="print" href="/profiles/openatrium/themes/tao/reset.css?g" />
+<link type="text/css" rel="stylesheet" media="print" href="/profiles/openatrium/themes/tao/base.css?g" />
+<link type="text/css" rel="stylesheet" media="print" href="/profiles/openatrium/themes/tao/print.css?g" />
+<link type="text/css" rel="stylesheet" media="print" href="/profiles/openatrium/themes/ginkgo/print-custom.css?g" />
+<style type='text/css'>
+.atrium-welcome-links a:hover,
+.dropdown-blocks .block-toggle li a:hover,
+.dropdown-blocks .block-toggle li a:focus,
+.dropdown-blocks .block-toggle ul.links li a:hover,
+.dropdown-blocks .block-toggle ul.links li a:focus,
+.dropdown-blocks .block-toggle .item-list li a:hover,
+.dropdown-blocks .block-toggle .item-list li a:focus,
+.pager li.pager-current,
+.more-link a:hover,
+#global,
+#navigation { background-color:#0089BA; }
+
+body #space-tools .block-title { background-color:#005f82; }
+
+body #header .block-widget .block-content,
+body #header .block .block-title { background-color:#00749e; }
+
+body .page-region .block .block-title {
+  background-color:#bed9e3;
+  border-color:#b0ccd6;
+  border-bottom-color:#a3bec8;
+  }
+
+.drilldown .trail a {
+  border-top-color:#f2f9fb;
+  border-bottom-color:#d1d8db;
+  background-color:#e2e8eb;
+  }
+
+.decay-10 .comment-title { border-color:#eeeeee; }
+.decay-9 .comment-title { border-color:#d6e3e8; }
+.decay-8 .comment-title { border-color:#bed9e3; }
+.decay-7 .comment-title { border-color:#a6cfde; }
+.decay-6 .comment-title { border-color:#8ec5d9; }
+.decay-5 .comment-title { border-color:#77bbd3; }
+.decay-4 .comment-title { border-color:#5fb1ce; }
+.decay-3 .comment-title { border-color:#47a7c9; }
+.decay-2 .comment-title { border-color:#2f9dc4; }
+.decay-1 .comment-title { border-color:#1793bf; }
+.decay-0 .comment-title { border-color:#0089BA; }
+</style>
+    <script type="text/javascript" src="/misc/jquery.js?g"></script>
+<script type="text/javascript" src="/misc/drupal.js?g"></script>
+<script type="text/javascript" src="/profiles/openatrium/modules/contrib/og/og.js?g"></script>
+<script type="text/javascript" src="/profiles/openatrium/modules/contrib/ctools/js/ajax-responder.js?g"></script>
+<script type="text/javascript" src="/profiles/openatrium/modules/contrib/boxes/boxes.js?g"></script>
+<script type="text/javascript" src="/misc/jquery.form.js?g"></script>
+<script type="text/javascript" src="/profiles/openatrium/themes/tao/js/tao.js?g"></script>
+<script type="text/javascript" src="/profiles/openatrium/themes/rubik/js/rubik.js?g"></script>
+<script type="text/javascript" src="/profiles/openatrium/themes/ginkgo/js/ginkgo.js?g"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "getQ": "user/login", "og": { "group_context": { "nid": "1833", "title": "Colorado Anti-Violence Program", "type": "group" } } });
+//--><!]]>
+</script>
+    <!--[if lte IE 8]><style type='text/css' media='screen'>@import '/profiles/openatrium/themes/ginkgo/ie.css';</style><![endif]-->    <title>User account | Open Media Foundation - Project Management</title>
+  </head>
+  <body  class="not-front not-logged-in page-user no-sidebars designkit og-context og-context-1833 tao rubik admin-static layout-login">
+
+  <a id='skipnav' href='#content'>Skip navigation</a>
+  <div id='global'><div class='limiter clear-block'>
+          <div id='header' class='dropdown-blocks toggle-blocks clear-block'>
+          
+
+<div  id="block-atrium-account" class="block block-atrium block-widget block-notitle">
+  
+  
+      <div class='block-content clear-block '>
+      <a href="/cavp/user/login" class="active">Log in</a>    </div>
+  
+  </div>
+
+
+      </div>
+        <div class='breadcrumb'><span class='link link-0'><a href="/">Home</a></span><span class='divider'></span><span class='link link-1'><a href="/cavp/og">Groups</a></span><span class='divider'></span><span class='link link-2'><a href="/cavp/">Colorado Anti-Violence Program</a></span><span class='space'><a href="/cavp/user/login" title="Private" class="private active"></a></span></div>      </div></div>
+
+  
+  <div id='page-tools'><div class='limiter clear-block'>
+    <h1  class="page-title page-title-hidden">User account</h1>    <div class='tabs clear-block'><ul class='links primary-tabs'><li class="active" ><a href="/cavp/user">Log in</a></li>
+<li ><a href="/cavp/user/password">Request new password</a></li>
+</ul></div>              </div></div>
+
+  
+  
+  <div id='page'><div class='limiter clear-block'>
+    
+<div id='content'><div class='page-region clear-block'>
+      <div class='page-content content-wrapper clear-block'><form action="/cavp/user/login?destination=cavp/system/files/favicon_5.ico"  accept-charset="UTF-8" method="post" id="user-login">
+<div><div class='form form-layout-simple clear-block'>
+  <div  class="form-item form-item-labeled" id="edit-name-wrapper">
+      <label  for="edit-name">Username: <span class='form-required' title='This field is required.'>*</span></label>
+    <input type="text" maxlength="60" name="name" id="edit-name" value="" class="form-text required fluid" />      <div class='description'>Enter your Open Media Foundation - Project Management username.</div>
+  </div>
+<div  class="form-item form-item-labeled" id="edit-pass-wrapper">
+      <label  for="edit-pass">Password: <span class='form-required' title='This field is required.'>*</span></label>
+    <input type="password" name="pass" id="edit-pass"  maxlength="128"  class="form-text required fluid" />      <div class='description'>Enter the password that accompanies your username.</div>
+  </div>
+<input type="hidden" name="form_build_id" id="form-4fc116ad27c78959fb08ae8042fe0346" value="form-4fc116ad27c78959fb08ae8042fe0346"  />
+<input type="hidden" name="form_id" id="edit-user-login" value="user_login"  />
+      <div class='buttons'><input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+</div>
+  </div>
+
+</div></form>
+</div>
+    </div></div>
+
+  </div></div>
+
+  
+  
+  
+  </body>
+</html>
